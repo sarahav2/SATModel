@@ -1,0 +1,131 @@
+<script type = 'text/javascript' src= "../assets/js/submit.js"></script>
+
+<div class = "container animated fadeIn">
+    <div class="row">
+      <div class="col-lg-12">
+
+      <h1 id="testId" data-test="{{questions.[0].PracticeTestId}}">Practice Test #{{questions.[0].PracticeTestId}}</h1>
+      <hr />
+
+      </div>
+    </div>
+    <div class= "row">
+        <!--column 1-->
+
+        <div class="col-lg-3">
+          <table class="questions-table" align="left">
+
+            {{!-- <tbody> --}}
+            {{#each questions}}
+
+                {{#if_eq this.questionType "MC" this.section "1"}}
+                    {{> input/mulchoice}}
+
+                {{/if_eq}}
+
+                {{#if_eq this.questionType "Open" this.section "1"}}
+
+                    {{> input/openAns}}
+
+                {{/if_eq}}
+
+            {{/each}}
+
+            </tbody>
+
+        </table>
+
+        </div>
+
+        <div class="col-lg-3 column">
+          <table class="questions-table" align="left">
+
+            {{!-- <tbody> --}}
+            {{#each questions}}
+
+
+                {{#if_eq this.questionType "MC" this.section "2"}}
+                    {{> input/mulchoice}}
+
+                {{/if_eq}}
+
+                {{#if_eq this.questionType "Open" this.section "2"}}
+
+                    {{> input/openAns}}
+
+                {{/if_eq}}
+
+            {{/each}}
+
+            </tbody>
+
+        </table>
+
+        </div>
+
+        <div class="col-lg-3 column">
+          <table class="questions-table" align="left">
+
+            {{!-- <tbody> --}}
+            {{#each questions}}
+
+
+                {{#if_eq this.questionType "MC" this.section "3"}}
+                    {{> input/mulchoice}}
+
+                {{/if_eq}}
+
+                {{#if_eq this.questionType "Open" this.section "3"}}
+
+                    {{> input/openAns}}
+
+                {{/if_eq}}
+
+            {{/each}}
+
+            </tbody>
+
+        </table>
+
+        </div>
+
+        <div class="col-lg-3 column">
+          <table class="questions-table" align="left">
+
+            {{!-- <tbody> --}}
+            {{#each questions}}
+
+
+                {{#if_eq this.questionType "MC" this.section "4"}}
+                    {{> input/mulchoice}}
+
+                {{/if_eq}}
+
+                {{#if_eq this.questionType "Open" this.section "4"}}
+
+                    {{> input/openAns}}
+
+                {{/if_eq}}
+
+            {{/each}}
+
+            </tbody>
+
+        </table>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+<div class = "row" id="submitRow">
+        <div class = "col-lg-4">
+        </div>
+        <div class = "col-lg-4 text-center">
+        <button class="btn btn-primary" id = "submitForm">Submit!</button>
+        </div>
+        <div class = "col-lg-4">
+        </div>
+    </div>

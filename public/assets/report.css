@@ -1,0 +1,95 @@
+body {
+    background-image: url("images/background.png");
+}
+
+.scoreDiv h1 {
+    font-size: 32px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.scoreDiv h2 {
+    font-weight: bold;
+}
+
+.header {
+    font-family: 'Poiret One', cursive;
+    color: #337ab7;
+    padding: 10px 0 30px 0;
+    font-weight: bold;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.scoreDiv {
+    color: #337ab7;
+    border-size: 1px;
+    font-weight: bold;
+}
+
+.scoreDiv p {
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+}
+
+.mainScore {
+    font-size: 100px;
+}
+
+.progress {
+    background-color: #b6cee2;
+}
+
+.scaledScores {
+    font-family: 'Poiret One', cursive;
+}
+
+.reportHeader {
+    color: #337ab7;
+    font-size: 80px;
+    font-family: 'Poiret One', cursive;
+}
+
+#reportUser {
+    font-family: 'Poiret One', cursive;
+    /*color: #337ab7;*/
+    color: black;
+    font-size: 14px;
+}
+
+#test-row {
+    border-bottom: solid #337ab7 3px;
+    padding-bottom: 20px;
+}
+
+#subscore-row {
+    border-bottom: solid #337ab7 3px;
+    padding: 0px 0 30px 0;
+}
+
+#subscore-row h1 {
+    font-weight: bold;
+}
+
+#crossTestRow h1 {
+    font-weight: bold;
+}
+
+.math {
+    color: #ef9f4f;
+}
+
+.mathProgress {
+  background-color: #ef9f4f;
+}
+
+#scoreTotal{
+  color: black;
+}
+
+#title {
+  color: black;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TheStandard</title>
+        <!--Tab bar favicon-->
+            <link rel="shortcut icon" href="" type="" />
+        <!-- BootStrap -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- JQuery -->
+            <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+        <!--Css -->
+            <link rel = "stylesheet" type= "text/css" href = "assets/landing.css">
+            <link rel = "stylesheet" type= "text/css" href = "assets/animate.css">
+
+        <!--Google Fonts-->
+            <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poiret+One" rel="stylesheet">
+
+        <!--JS-->
+            <script src = ""></script>
+</head>
+<body>
+
+<div class= "row">
+    <div class="col-lg-4 column" id="colLeft">
+
+    <img class="img-responsive animated fadeInLeftBig" id="logo" src="assets/images/logo.jpg">
+
+        <div class="row" id="startButtonHolder">
+            <div class= "col-lg-4"></div>
+            <div class="col-lg-4 text-center animated fadeInLeftBig">
+                <div id = "loginDiv">
+                    <a href="/login"><button id="startButton">login</button></a>
+                    </div>
+                    <br>
+                    <div>
+                    <a href="/signup"><button id="startButton">signup</button></a>
+                    </div>
+            </div>
+            <div class= "col-lg-4"></div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="col-lg-8 column" id="colRight">
+            <img id='landing-img' class="img-responsive animated fadeInRight" src="assets/images/landing.jpg" alt="">
+    </div>
+</div>
+
+<script type = "text/javascript">
+$("#startButton").on("click", function(){
+    $("#colLeft").addClass("animated fadeOutLeft")
+    $("#colRight").addClass("animated fadeOutRight")
+})
+
+</script>
+
+</body>
+</html>

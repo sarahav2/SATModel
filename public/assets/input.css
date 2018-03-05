@@ -1,0 +1,32 @@
+.ansbutton {
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 15px;
+  background-color: white;
+  border-color: black;
+  font-family: "Lato", sans-serif;
+}
+
+.selectedButton{
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 15px;
+  background-color: #78908C;
+  border-color: black;
+}
+
+
+td {
+  padding: 3px;
+}
+
+#navbarLogo{
+  max-width: 100%;
+  max-height: 30px;
+  margin-bottom: 10px;
+}
+
+#submitForm{
+  margin-top: 15px;
+  margin-bottom: 35px;
+}

@@ -1,0 +1,31 @@
+.redirection {
+	text-align: right;
+}
+
+.form-control{
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: #337AB7;
+}
+
+.btn{
+	font-size: 20px;
+	color: #337AB7;
+	border-radius: 10px;
+	border-color: #337AB7;
+	border-width: 2px;
+	background-color: white;
+}
+
+.row{
+	height: 0px;
+}
+
+.loginText{
+	font-family: 'Poiret One', cursive;
+	color: #337AB7;
+}
+
+#addOptions{
+	align-content: right;
+}
